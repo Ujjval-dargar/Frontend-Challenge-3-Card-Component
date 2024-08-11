@@ -1,0 +1,104 @@
+body,
+.btnn {
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+.cont {
+    width: 58%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.crd {
+    padding: 40px;
+}
+
+.crd1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.crd2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.crd3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.btnn {
+    border-radius: 25px;
+    border-style: none;
+    margin: 60px 0 0 0;
+    padding: 7px 20px;
+}
+
+.crd1 .btnn {
+    color: hsl(31, 77%, 52%);
+}
+
+.crd2 .btnn {
+    color: hsl(184, 100%, 22%);
+}
+
+.crd3 .btnn {
+    color: hsl(179, 100%, 13%);
+}
+
+.crd1 .btnn:hover {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+}
+
+.crd2 .btnn:hover {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid white;
+}
+
+.crd3 .btnn:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid white;
+}
+
+@media (max-width:766px) {
+    .crd1 {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .crd3 {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
