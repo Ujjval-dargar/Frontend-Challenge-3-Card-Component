@@ -12,8 +12,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor-Solution](https://www.frontendmentor.io/solutions/3-column-preview-card-component-using-bootstrap-y2KyOd-bu_)
+- Live Site URL: [Card-Component](https://ujjval-dargar.github.io/Frontend-Challenge-3-Card-Component/)
 
 
 ### Built with
